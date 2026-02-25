@@ -86,15 +86,22 @@ cat ~/.ssh/id_rsa
 ---
 
 ### STEP 3️⃣ Add GitHub Secrets
-In GitHub repo:
-- Settings → Secrets and variables → Actions → New repository secret
-- Add these:
-| Name         | Value                             |
-|--------------|-----------------------------------|
-| EC2_HOST     | EC2 public IP                     |
-| EC2_USER     | ubuntu                            |
-| EC2_SSH_KEY  | SSH private key (keep secret)     |
-| APP_PATH     | /home/ubuntu/simple-node-app-cicd |
+
+In your GitHub repository:
+
+1. Go to **Settings → Secrets and variables → Actions**
+2. Click **New repository secret**
+3. Add the following secrets:
+
+| Name         | Value                               |
+|--------------|-------------------------------------|
+| EC2_HOST     | EC2 public IP                       |
+| EC2_USER     | ubuntu                              |
+| EC2_SSH_KEY  | SSH private key (keep secret)       |
+| APP_PATH     | /home/ubuntu/simple-node-app-cicd   |
+
+> ⚠️ **Important:**  
+> Never commit your private SSH key to the repository.
 
 ---
 

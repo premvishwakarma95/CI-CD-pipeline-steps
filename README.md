@@ -168,3 +168,23 @@ http://<EC2_PUBLIC_IP>:3000
 ### 🧠 What you just achieved (REAL SKILL)
 You can now say: - “I implemented CI/CD using GitHub Actions with auto-deployment to AWS EC2 using PM2.”
 - This is production-level knowledge.
+
+---
+
+# 🔥 CI/CD Interview Questions & Answers (Beginner → Intermediate)
+## 1️⃣ What is CI/CD?
+Answer:
+- CI/CD stands for Continuous Integration and Continuous Deployment.
+- It is a practice where code changes are automatically tested and deployed using automation tools.
+
+## 2️⃣ What is Continuous Integration (CI)?
+Answer:  
+Continuous Integration means automatically testing and validating code every time a developer pushes changes to the repository.  
+Example:
+- install dependencies
+- run tests
+- check build
+
+## 3️⃣ What is Continuous Deployment (CD)?
+Answer:  
+Continuous Deployment means automatically deploying code to the server after CI passes, without manual intervention.

@@ -1,4 +1,7 @@
 # CI/CD Pipeline Steps to setup in github
+- CI -> stands for `Continuously Integration` And CD -> stands for `Continuously Deployment` OR `(Continuous Delivery)`.
+- In this Repositiory I have implemented all the things
+- https://github.com/premvishwakarma95/simple-node-app-cicd
 
 ---
 

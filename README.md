@@ -89,12 +89,12 @@ cat ~/.ssh/id_rsa
 In GitHub repo:
 - Settings → Secrets and variables → Actions → New repository secret
 - Add these:
-| Name          | Value                               |
-| ------------- | ----------------------------------- |
-| `EC2_HOST`    | EC2 public IP                       |
-| `EC2_USER`    | `ubuntu`                            |
-| `EC2_SSH_KEY` | **PRIVATE SSH KEY**                 |
-| `APP_PATH`    | `/home/ubuntu/simple-node-app-cicd` |
+| Name         | Value                               |
+|--------------|-------------------------------------|
+| EC2_HOST     | EC2 public IP                       |
+| EC2_USER     | ubuntu                              |
+| EC2_SSH_KEY  | PRIVATE SSH KEY                     |
+| APP_PATH     | /home/ubuntu/simple-node-app-cicd   |
 
 ---
 
